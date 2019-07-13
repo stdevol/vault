@@ -1,0 +1,16 @@
+{
+
+  "profiles": {
+    "Vault.Server": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_URLS": "http://+:55661",
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "MONGO": "mongodb://mongo.office.progress/Vault-Test",
+        "DaDataServer": "https://suggestions.dadata.ru/suggestions/api/4_1/rs/",
+        "DaDataToken": "",
+        "SitesCorsOrigins": "http://localhost:8000;http://localhost:8002"
+      }
+    }
+  }
+}
